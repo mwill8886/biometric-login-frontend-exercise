@@ -1,0 +1,48 @@
+.form {
+    margin: auto;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
+
+.inputWrapper {
+    margin-bottom: 24px;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0px;
+}
+.input:active, .input:focus {    
+    outline-color: blueviolet;
+}
+
+.error {
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: red;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+
+  }
